@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#over {
+  background-color: rgba(	54, 77, 121, 0.25);
+}
+
 #over img {
   margin-left: auto;
   margin-right: auto;
@@ -16,4 +20,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.ant-carousel .slick-slide {
+  overflow: hidden;
+  height: 160px;
+}
+
+.ant-carousel .slick-slide div {
+  color: rgba(	54, 77, 121);
+}
+
+.ant-carousel .slick-dots li button {
+  background: rgb(252, 252, 252);
+  opacity: 0.4;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  opacity: 1;
+  background: rgb(252, 252, 252);
+}
+
+.example {
+  text-align: center;
 }

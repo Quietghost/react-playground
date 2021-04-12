@@ -1,0 +1,6 @@
+.ant-carousel .slick-next::before {
+  content: '';
+}
+.ant-carousel .slick-prev::before {
+  content: '';
+}
